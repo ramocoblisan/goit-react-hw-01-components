@@ -1,8 +1,8 @@
 .profile {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   border-style: ridge;
   width: 300px;
   height: auto;
@@ -43,12 +43,14 @@
 .stats {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center; 
   padding-left: 0;
   border-top: 1px solid #c6c6c6;
   margin: 0;
   background-color: #edf2f7;
+  width: 100%;
+  gap: 10px;
 }
 
 .listItem {

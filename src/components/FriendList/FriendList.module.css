@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 350px;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   list-style-type: none;
   gap: 10px;
   border: 1px solid #edf2f7;
